@@ -32,7 +32,7 @@ export default defineComponent({
       <Playlist />
       <Playlist />
     </div>
-    <!-- <footer>By Tiago Forward - 2025 ®</footer> -->
+    <footer>By Tiago Forward - 2025 ®</footer>
   </div>
 </template>
 
@@ -49,9 +49,9 @@ header {
   gap: 1rem;
 }
 
-/* footer {
+footer {
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 2rem;
-} */
+}
 </style>
