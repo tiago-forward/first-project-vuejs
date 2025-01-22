@@ -1,6 +1,7 @@
-<script lang="ts" se>
+<script lang="ts">
 import Playlist from '@/components/home/Playlist.vue';
-import { defineComponent, ref } from 'vue';
+import { defineComponent, onMounted, ref } from 'vue';
+import { getPlaylists, type PlaylistType } from '@/lib/axios.ts';
 
 export default defineComponent({
   // eslint-disable-next-line vue/multi-word-component-names
@@ -9,8 +10,18 @@ export default defineComponent({
     Playlist,
   },
   setup() {
-    const nome = ref(<string>('Tiago'))
-    console.log(nome.value)
+    const playlists = ref<PlaylistType[]>([])
+
+    onMounted(async () => {
+      try {
+        playlists.value = await getPlaylists()
+        console.log(playlists.value)
+      } catch (err) {
+        console.log("Erro ao carregar dados das playlists", err)
+      }
+    })
+
+    return { playlists }
   },
 })
 </script>
@@ -21,16 +32,9 @@ export default defineComponent({
       <h1>Minha playlist de músicas Kpop</h1>
     </header>
     <div :class="home.playlistContainer">
-      <Playlist />
-      <Playlist />
-      <Playlist />
-      <Playlist />
-      <Playlist />
-      <Playlist />
-      <Playlist />
-      <Playlist />
-      <Playlist />
-      <Playlist />
+      <div v-for="playlist in playlists" :key="playlist.id">
+        <Playlist image-url="" :title="playlist.name" />
+      </div>
     </div>
     <footer>By Tiago Forward - 2025 ®</footer>
   </div>
@@ -45,7 +49,7 @@ header {
 
 .playlistContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 1rem;
 }
 

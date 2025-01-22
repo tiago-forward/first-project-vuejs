@@ -7,8 +7,7 @@
       <!-- <img :src="imageUrl" alt="Playlist Thumbnail"> -->
     </div>
     <div :class="playlist.boxContent">
-      <h2>IVE</h2>
-      <!-- <h2>{{  title }}</h2> -->
+      <h2>{{ title }}</h2>
       <span>Privado * Playlist</span>
       <a href="#">Ver playlist completa</a>
     </div>
@@ -28,7 +27,7 @@ export default defineComponent({
     },
     title: {
       type: String as PropType<string>,
-      required: false,
+      required: true,
     },
   },
   setup() {
@@ -56,7 +55,8 @@ export default defineComponent({
   margin-bottom: 0.6rem;
 }
 
-span, a {
+span,
+a {
   color: #878787;
 }
 
