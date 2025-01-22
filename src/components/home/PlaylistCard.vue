@@ -1,12 +1,12 @@
 <template>
-  <div :class="playlist.boxContainer">
+  <div :class="classes.boxContainer">
     <div>
       <img
         src="https://i.ytimg.com/vi/pY7Kzkpbll0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDY82qlOeWWWGSxFzrSZAnR4HxNKg"
         alt="Playlist Thumbnail">
       <!-- <img :src="imageUrl" alt="Playlist Thumbnail"> -->
     </div>
-    <div :class="playlist.boxContent">
+    <div :class="classes.boxContent">
       <h2>{{ title }}</h2>
       <span>Privado * Playlist</span>
       <a href="#">Ver playlist completa</a>
@@ -18,8 +18,8 @@
 import { defineComponent, type PropType } from 'vue';
 
 export default defineComponent({
-  // eslint-disable-next-line vue/multi-word-component-names
-  name: 'Playlist',
+
+  name: 'PlaylistCard',
   props: {
     imageUrl: {
       type: String as PropType<string>,
@@ -36,7 +36,7 @@ export default defineComponent({
 })
 </script>
 
-<style module="playlist">
+<style module="classes">
 .boxContainer {
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 <script lang="ts">
-import Playlist from '@/components/home/Playlist.vue';
+import Playlist from '@/components/home/PlaylistCard.vue';
 import { defineComponent, onMounted, ref } from 'vue';
 import { getPlaylists, type PlaylistType } from '@/lib/axios.ts';
 
