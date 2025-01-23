@@ -1,7 +1,58 @@
 {
   "playlists": [
-    { "id": 1, "name": "IVE", "songs": 10 },
-    { "id": 2, "name": "Black Pink", "songs": 15 },
-    { "id": 3, "name": "Sumni", "songs": 7 }
+    {
+      "id": 1,
+      "name": "IVE",
+      "image_url": "https://example.com/ive-image.jpg",
+      "songs": 2,
+      "videos": [
+        {
+          "title": "IVE - After LIKE",
+          "video_url": "https://youtu.be/abcdef",
+          "channel_name": "IVE Official",
+          "publish_date": "2025-01-01"
+        },
+        {
+          "title": "IVE - LOVE DIVE",
+          "video_url": "https://youtu.be/xyzxyz",
+          "channel_name": "IVE Official",
+          "publish_date": "2025-02-01"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Black Pink",
+      "image_url": "https://example.com/blackpink-image.jpg",
+      "songs": 2,
+      "videos": [
+        {
+          "title": "BLACKPINK - How You Like That",
+          "video_url": "https://youtu.be/ghijklm",
+          "channel_name": "BLACKPINK",
+          "publish_date": "2025-01-15"
+        },
+        {
+          "title": "BLACKPINK - DDU-DU DDU-DU",
+          "video_url": "https://youtu.be/nopqrst",
+          "channel_name": "BLACKPINK",
+          "publish_date": "2025-02-20"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sumni",
+      "image_url": "https://example.com/sunni-image.jpg",
+      "songs": 1,
+      "videos": [
+        {
+          "title": "Sunmi - Gashina",
+          "video_url": "https://youtu.be/abcdefghi",
+          "channel_name": "Sunmi Official",
+          "publish_date": "2025-03-01"
+        }
+      ]
+    }
   ]
 }
