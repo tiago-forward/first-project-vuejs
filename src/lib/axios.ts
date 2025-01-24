@@ -3,7 +3,9 @@ import axios, { type AxiosInstance } from 'axios'
 export interface PlaylistType {
   id: number
   name: string
+  image_url: string
   songs: number
+  videos: object
 }
 
 export const api: AxiosInstance = axios.create({
