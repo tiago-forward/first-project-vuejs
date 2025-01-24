@@ -1,7 +1,8 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from '@/pages/Home.vue'
+// const lazyLoad = (view: string) => import(`@/pages/${view}.vue`)
 
-const lazyLoad = (view: string) => import(`@/pages/${view}.vue`)
+import Home from '@/pages/Home.vue'
+import PlaylistList from '@/pages/Playlist.vue'
 
 const routes = [
   {
@@ -10,10 +11,11 @@ const routes = [
     component: Home,
   },
   {
-    path: '/',
-    name: '',
-    component: lazyLoad("")
-  }
+    path: '/playlist',
+    name: 'Playlist',
+    component: PlaylistList,
+    // component: lazyLoad("PlaylistList")
+  },
 ]
 
 const router = createRouter({
