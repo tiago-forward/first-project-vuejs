@@ -8,11 +8,11 @@ export default defineComponent({
 </script>
 
 <template>
-  <header>
+  <header :class="classes.header">
     <slot name="searchBar"></slot>
   </header>
 
-  <main>
+  <main :class="classes.main">
     <slot></slot>
   </main>
 
@@ -22,6 +22,14 @@ export default defineComponent({
 </template>
 
 <style module="classes">
+.main {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .footer {
   text-align: center;
   margin-bottom: 2rem;

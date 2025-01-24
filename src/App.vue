@@ -1,17 +1,16 @@
 <script setup lang="ts">
-import Playlist from './pages/Home.vue';
-
+import LayoutMain from './layouts/LayoutMain.vue';
 </script>
 
 <template>
-  <Playlist />
+  <LayoutMain>
+    <template v-slot:searchBar></template>
+    <RouterView />
+    <template v-slot:footer>
+      By Tiago Forward - 2025 ®
+    </template>
+  </LayoutMain>
 </template>
 
 <style scoped>
-header {
-  text-align: center;
-  margin-top: 4rem;
-}
-
-@media (min-width: 1024px) {}
 </style>

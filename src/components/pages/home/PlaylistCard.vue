@@ -9,13 +9,15 @@
     <div :class="classes.boxContent">
       <h2>{{ title }}</h2>
       <span>Privado * Playlist</span>
-      <a href="#">Ver playlist completa</a>
+      <RouterLink to="/playlist">Ver playlist completa</RouterLink>
     </div>
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, type PropType } from 'vue';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+import { RouterLink } from 'vue-router';
 
 export default defineComponent({
 
