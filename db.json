@@ -3,54 +3,174 @@
     {
       "id": 1,
       "name": "IVE",
-      "image_url": "https://example.com/ive-image.jpg",
+      "image_url": "https://i.ytimg.com/vi/pY7Kzkpbll0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBp7zPCi60UjcF_34v7oJekQDCQUA",
       "songs": 2,
       "videos": [
         {
-          "title": "IVE - After LIKE",
-          "video_url": "https://youtu.be/abcdef",
-          "channel_name": "IVE Official",
-          "publish_date": "2025-01-01"
+          "title": "IVE 아이브 'After LIKE' MV",
+          "video_url": "https://www.youtube.com/watch?v=F0B7HDiY-10",
+          "channel_name": "STARSHIP",
+          "publish_date": "2022-08-22"
         },
         {
-          "title": "IVE - LOVE DIVE",
-          "video_url": "https://youtu.be/xyzxyz",
-          "channel_name": "IVE Official",
-          "publish_date": "2025-02-01"
+          "title": "IVE 아이브 'LOVE DIVE' MV",
+          "video_url": "https://www.youtube.com/watch?v=Y8JFxS1HlDo",
+          "channel_name": "STARSHIP",
+          "publish_date": "2022-04-05"
         }
       ]
     },
     {
       "id": 2,
       "name": "Black Pink",
-      "image_url": "https://example.com/blackpink-image.jpg",
-      "songs": 2,
+      "image_url": "https://i.ytimg.com/vi/gQlMMD8auMs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCTekF-RyU73RIwGWUqAovQOy7y9A",
+      "songs": 1,
       "videos": [
         {
-          "title": "BLACKPINK - How You Like That",
-          "video_url": "https://youtu.be/ghijklm",
+          "title": "BLACKPINK - 'How You Like That' M/V",
+          "video_url": "https://www.youtube.com/watch?v=ioNng23DkIM",
           "channel_name": "BLACKPINK",
-          "publish_date": "2025-01-15"
-        },
-        {
-          "title": "BLACKPINK - DDU-DU DDU-DU",
-          "video_url": "https://youtu.be/nopqrst",
-          "channel_name": "BLACKPINK",
-          "publish_date": "2025-02-20"
+          "publish_date": "2020-06-26"
         }
       ]
     },
     {
       "id": 3,
       "name": "Sumni",
-      "image_url": "https://example.com/sunni-image.jpg",
+      "image_url": "https://i.ytimg.com/vi/vJvX9L6FCWI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDDVWx4wfFREqPkZuUrItTG0Osj9w",
       "songs": 1,
       "videos": [
         {
-          "title": "Sunmi - Gashina",
-          "video_url": "https://youtu.be/abcdefghi",
-          "channel_name": "Sunmi Official",
-          "publish_date": "2025-03-01"
+          "title": "[MV] SUNMI(선미) _ Gashina(가시나)",
+          "video_url": "https://www.youtube.com/watch?v=ur0hCdne2-s",
+          "channel_name": "1theK (원더케이)",
+          "publish_date": "2017-08-22"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "(G)I-DLE",
+      "image_url": "https://i.ytimg.com/vi/rTKqSmX9XhQ/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD4qXBYxsJStM_8m7OO11cSxZBuZQ",
+      "songs": 0,
+      "videos": [
+        {
+          "title": "",
+          "video_url": "",
+          "channel_name": "",
+          "publish_date": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "VIVIZ",
+      "image_url": "https://i.ytimg.com/vi/DjoXqZMjhJY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAjBUMtyRJ35hLfpi9beCOdAs9DUQ",
+      "songs": 0,
+      "videos": [
+        {
+          "title": "",
+          "video_url": "",
+          "channel_name": "",
+          "publish_date": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "BABYMONSTER",
+      "image_url": "https://i.ytimg.com/vi/Zp-Jhuhq0bQ/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAqy0guQIKRsuZ_HxZ4jGa-Mu9QrA",
+      "songs": 0,
+      "videos": [
+        {
+          "title": "",
+          "video_url": "",
+          "channel_name": "",
+          "publish_date": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "ITZY",
+      "image_url": "https://i.ytimg.com/vi/NrUlydECU-8/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBkRN9NCfv2TnH-tLpGKrObxJmFDg",
+      "songs": 0,
+      "videos": [
+        {
+          "title": "",
+          "video_url": "",
+          "channel_name": "",
+          "publish_date": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "ILLIT",
+      "image_url": "https://i.ytimg.com/vi/tbDGl7jEazA/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB8E2TGt7QAomzX4DaVVfRYNUGWTg",
+      "songs": 0,
+      "videos": [
+        {
+          "title": "",
+          "video_url": "",
+          "channel_name": "",
+          "publish_date": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "EVERGLOW",
+      "image_url": "https://i.ytimg.com/vi/jI5p2ePoVcc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCEIf1G1HwB0jynZVvOkY82Ds8RnA",
+      "songs": 0,
+      "videos": [
+        {
+          "title": "",
+          "video_url": "",
+          "channel_name": "",
+          "publish_date": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "New Jeans",
+      "image_url": "https://i.ytimg.com/vi/ft70sAYrFyY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCLMMZsMYqR0Dbvz4CyeEQa2xlWrQ",
+      "songs": 0,
+      "videos": [
+        {
+          "title": "",
+          "video_url": "",
+          "channel_name": "",
+          "publish_date": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "LE SSERAFIM",
+      "image_url": "https://i.ytimg.com/vi/KNexS61fjus/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD7f1s2JtN2TbqRFfu-E0x5EA8krA",
+      "songs": 0,
+      "videos": [
+        {
+          "title": "",
+          "video_url": "",
+          "channel_name": "",
+          "publish_date": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "TWICE",
+      "image_url": "https://i.ytimg.com/vi/jCzez_q8si0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB1VAYrUXqFXG0YsgC_vlnmFQj3CA",
+      "songs": 0,
+      "videos": [
+        {
+          "title": "",
+          "video_url": "",
+          "channel_name": "",
+          "publish_date": ""
         }
       ]
     }
