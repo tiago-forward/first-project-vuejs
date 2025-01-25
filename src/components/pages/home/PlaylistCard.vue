@@ -1,7 +1,9 @@
 <template>
   <div :class="classes.boxContainer">
-    <div>
+    <div :class="classes.imageContainer">
       <img :src="imageUrl" alt="Playlist Thumbnail">
+      <span v-if="songs > 1">{{ songs }} vídeos</span>
+      <span v-else-if="songs <= 1">{{ songs }} vídeo</span>
     </div>
     <div :class="classes.boxContent">
       <h2>{{ title }}</h2>
@@ -28,6 +30,10 @@ export default defineComponent({
       type: String as PropType<string>,
       required: true,
     },
+    songs: {
+      type: Number as PropType<number>,
+      required: true,
+    },
   },
   setup() {
 
@@ -39,10 +45,30 @@ export default defineComponent({
 .boxContainer {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
-.boxContainer img {
+.imageContainer {
+  position: relative;
+  display: flex;
+}
+
+.imageContainer span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: wheat;
+  font-size: 20px;
+  background-color: #090B16;
+  border-radius: 10px;
+  padding: 0.4rem;
+  margin-bottom: 0.4rem;
+  margin-right: 0.4rem;
+}
+
+.imageContainer img {
   width: 100%;
+  height: 100%;
   border-radius: 1rem;
   object-fit: cover;
 }
@@ -52,6 +78,7 @@ export default defineComponent({
   flex-direction: column;
   gap: 0.2rem;
   margin-bottom: 0.6rem;
+  margin-top: 0.4rem;
 }
 
 span,
