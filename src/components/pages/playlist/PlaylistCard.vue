@@ -26,8 +26,6 @@
 
 <script lang="ts">
 import { defineComponent, onBeforeMount, onMounted, ref, type PropType } from 'vue';
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { RouterLink } from 'vue-router';
 
 export default defineComponent({
 

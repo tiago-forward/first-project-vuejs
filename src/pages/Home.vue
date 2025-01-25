@@ -33,7 +33,7 @@ export default defineComponent({
 
     <section :class="home.playlistContainer">
       <div v-for="playlist in playlists" :key="playlist.id">
-        <PlaylistCard image-url="" :title="playlist.name" />
+        <PlaylistCard :image-url="playlist.image_url" :title="playlist.name" />
       </div>
     </section>
   </div>

@@ -1,10 +1,7 @@
 <template>
   <div :class="classes.boxContainer">
     <div>
-      <img
-        src="https://i.ytimg.com/vi/pY7Kzkpbll0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDY82qlOeWWWGSxFzrSZAnR4HxNKg"
-        alt="Playlist Thumbnail">
-      <!-- <img :src="imageUrl" alt="Playlist Thumbnail"> -->
+      <img :src="imageUrl" alt="Playlist Thumbnail">
     </div>
     <div :class="classes.boxContent">
       <h2>{{ title }}</h2>
@@ -25,7 +22,7 @@ export default defineComponent({
   props: {
     imageUrl: {
       type: String as PropType<string>,
-      required: false,
+      required: true,
     },
     title: {
       type: String as PropType<string>,
