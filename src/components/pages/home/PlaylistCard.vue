@@ -8,7 +8,7 @@
     <div :class="classes.boxContent">
       <h2>{{ title }}</h2>
       <span>Privado * Playlist</span>
-      <RouterLink to="/playlist">Ver playlist completa</RouterLink>
+      <RouterLink :to="{ name: 'Playlist', params: { id: id } }">Ver playlist completa</RouterLink>
     </div>
   </div>
 </template>
@@ -22,6 +22,10 @@ export default defineComponent({
 
   name: 'PlaylistCard',
   props: {
+    id: {
+      type: Number as PropType<number>,
+      required: true,
+    },
     imageUrl: {
       type: String as PropType<string>,
       required: true,

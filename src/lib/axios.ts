@@ -21,3 +21,13 @@ export const getPlaylists = async (): Promise<PlaylistType[]> => {
     throw new Error('Erro ao buscar playlists')
   }
 }
+
+export const getPlaylistId = async (): Promise<PlaylistType[]> => {
+  try {
+    const response = await api.get('playlists/:id')
+    return response.data
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  } catch (err) {
+    throw new Error('Erro ao buscar playlists')
+  }
+}
