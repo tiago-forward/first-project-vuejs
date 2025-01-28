@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "IVE",
-      "image_url": "https://i.ytimg.com/vi/pY7Kzkpbll0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBp7zPCi60UjcF_34v7oJekQDCQUA",
+      "image_url": "https://rocknbold.com/wp-content/uploads/2021/12/FFC2F5eaUAQdGG2.jpg",
       "songs": 2,
       "videos": [
         {
@@ -27,7 +27,7 @@
     {
       "id": 2,
       "name": "Black Pink",
-      "image_url": "https://i.ytimg.com/vi/gQlMMD8auMs/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCTekF-RyU73RIwGWUqAovQOy7y9A",
+      "image_url": "https://thebackstage-deezer.com/wp-content/uploads/2023/11/blackpink.jpeg",
       "songs": 1,
       "videos": [
         {
@@ -43,13 +43,14 @@
     {
       "id": 3,
       "name": "Sumni",
-      "image_url": "https://i.ytimg.com/vi/vJvX9L6FCWI/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLDDVWx4wfFREqPkZuUrItTG0Osj9w",
+      "image_url": "https://portalkpopbrasil.com/wp-content/uploads/2021/02/sunmi.jpeg",
+          "video_url": "https://www.youtube.com/watch?v=ur0hCdne2-s",
       "songs": 1,
       "videos": [
         {
           "id": 1,
           "title": "[MV] SUNMI(선미) _ Gashina(가시나)",
-          "image_url": "https://i.ytimg.com/vi/ur0hCdne2-s/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAn8pj034FG42XAHtNcweSH8pJLPg",
+          "image_url": "https://i.ytimg.com/vi/ur0hCdne2-s/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAn8pj034FG42XAHtNcweSH8pJLPgg",
           "video_url": "https://www.youtube.com/watch?v=ur0hCdne2-s",
           "channel_name": "1theK (원더케이)",
           "publish_date": "22/08/2017"
@@ -59,63 +60,63 @@
     {
       "id": 4,
       "name": "(G)I-DLE",
-      "image_url": "https://i.ytimg.com/vi/rTKqSmX9XhQ/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD4qXBYxsJStM_8m7OO11cSxZBuZQ",
+      "image_url": "https://k4us.com.br/wp-content/uploads/2024/02/gidle-scaled.jpg",
       "songs": 0,
       "videos": []
     },
     {
       "id": 5,
       "name": "VIVIZ",
-      "image_url": "https://i.ytimg.com/vi/DjoXqZMjhJY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAjBUMtyRJ35hLfpi9beCOdAs9DUQ",
+      "image_url": "https://i0.wp.com/revistakoreain.com.br/wp-content/uploads/2024/10/VIVIZ-Big-Planet-Made.jpg?fit=1200%2C675&ssl=1",
       "songs": 0,
       "videos": []
     },
     {
       "id": 6,
       "name": "BABYMONSTER",
-      "image_url": "https://i.ytimg.com/vi/Zp-Jhuhq0bQ/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLAqy0guQIKRsuZ_HxZ4jGa-Mu9QrA",
+      "image_url": "https://hitmagazine.com.br/wp-content/uploads/2024/11/BABYM-SITE-scaled-e1731868510230-925x540.jpeg",
       "songs": 0,
       "videos": []
     },
     {
       "id": 7,
       "name": "ITZY",
-      "image_url": "https://i.ytimg.com/vi/NrUlydECU-8/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLBkRN9NCfv2TnH-tLpGKrObxJmFDg",
+      "image_url": "https://i0.wp.com/popasiaticojpg.com/wp-content/uploads/2024/05/0b8d6-psx_20221130_173418.jpg?fit=810%2C400&ssl=1",
       "songs": 0,
       "videos": []
     },
     {
       "id": 8,
       "name": "ILLIT",
-      "image_url": "https://i.ytimg.com/vi/tbDGl7jEazA/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB8E2TGt7QAomzX4DaVVfRYNUGWTg",
+      "image_url": "https://blog.delivered.co.kr/wp-content/uploads/2024/03/6-thumbnail.jpg",
       "songs": 0,
       "videos": []
     },
     {
       "id": 9,
       "name": "EVERGLOW",
-      "image_url": "https://i.ytimg.com/vi/jI5p2ePoVcc/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCEIf1G1HwB0jynZVvOkY82Ds8RnA",
+      "image_url": "https://i0.wp.com/popasiaticojpg.com/wp-content/uploads/2024/05/55a06-everglow-slay.png?fit=810%2C400&ssl=1",
       "songs": 0,
       "videos": []
     },
     {
       "id": 10,
       "name": "New Jeans",
-      "image_url": "https://i.ytimg.com/vi/ft70sAYrFyY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLCLMMZsMYqR0Dbvz4CyeEQa2xlWrQ",
+      "image_url": "https://imgix.bustle.com/uploads/image/2024/9/23/5555a38d/f24_newjeans_pr_logo_.jpg?w=1200&h=675&fit=crop&crop=faces&fm=jpg",
       "songs": 0,
       "videos": []
     },
     {
       "id": 11,
       "name": "LE SSERAFIM",
-      "image_url": "https://i.ytimg.com/vi/KNexS61fjus/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLD7f1s2JtN2TbqRFfu-E0x5EA8krA",
+      "image_url": "https://s2.glbimg.com/suVeCs263jHh7-DtzA6_96fx22Q=/620x413/e.glbimg.com/og/ed/f/original/2022/05/02/image_ZR8GNEI.png",
       "songs": 0,
       "videos": []
     },
     {
       "id": 12,
       "name": "TWICE",
-      "image_url": "https://i.ytimg.com/vi/jCzez_q8si0/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAiEIYAdgBAeIBCggYEAIYBjgBQAE=&rs=AOn4CLB1VAYrUXqFXG0YsgC_vlnmFQj3CA",
+      "image_url": "https://imgix.bustle.com/uploads/image/2022/8/25/7e4b684c-1f25-43c0-bac7-e238d1702f2a-twice1.JPG",
       "songs": 0,
       "videos": []
     }
