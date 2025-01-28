@@ -1,7 +1,7 @@
 <script lang="ts">
 import PlaylistCard from '@/components/pages/home/PlaylistCard.vue'
 import { defineComponent, onMounted, ref } from 'vue';
-import { getPlaylists, type PlaylistType } from '@/lib/axios.ts';
+import { getPlaylists, type PlaylistsType } from '@/lib/axios.ts';
 
 export default defineComponent({
   // eslint-disable-next-line vue/multi-word-component-names
@@ -10,7 +10,7 @@ export default defineComponent({
     PlaylistCard,
   },
   setup() {
-    const playlists = ref<PlaylistType[]>([])
+    const playlists = ref<PlaylistsType[]>([])
 
     onMounted(async () => {
       try {

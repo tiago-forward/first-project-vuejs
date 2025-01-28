@@ -6,17 +6,15 @@
 
     <div :class="classes.contentContainer">
       <div>
-        <img
-          src="https://i.ytimg.com/vi/pY7Kzkpbll0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDY82qlOeWWWGSxFzrSZAnR4HxNKg"
-          alt="Playlist Thumbnail">
+        <img :src="imageUrl" alt="Playlist Thumbnail">
       </div>
 
       <div :class="classes.boxContent">
         <h2 :class="classes.title">{{ title }}</h2>
         <div :class="classes.content">
-          <span>STUDIO CHOOM [스튜디오 춤]</span>
-          <span v-if="screenWidth > 690">* 3,4 mi de visualizações</span>
-          <span v-if="screenWidth > 690">* há 8 dias</span>
+          <span>{{ channelName }}</span>
+          <span>•</span>
+          <span v-if="screenWidth > 690">{{ formatPublishDate(publishDate) }}</span>
         </div>
       </div>
     </div>
@@ -25,12 +23,18 @@
 </template>
 
 <script lang="ts">
+import { formatDistanceToNow } from 'date-fns';
+import { ptBR } from 'date-fns/locale';
 import { defineComponent, onBeforeMount, onMounted, ref, type PropType } from 'vue';
 
 export default defineComponent({
 
   name: 'PlaylistCard',
   props: {
+    id: {
+      type: Number as PropType<number>,
+      required: false,
+    },
     imageUrl: {
       type: String as PropType<string>,
       required: false,
@@ -39,13 +43,28 @@ export default defineComponent({
       type: String as PropType<string>,
       required: true,
     },
+    channelName: {
+      type: String as PropType<string>,
+      required: true,
+    },
+    publishDate: {
+      type: String as PropType<string>,
+      required: true,
+    }
   },
   setup() {
     const screenWidth = ref(window.innerWidth)
-
     const updateScreenWidt = () => {
       screenWidth.value = window.innerWidth
     }
+
+    const formatPublishDate = (publishDate: string) => {
+      const parsedDate = new Date(publishDate.split('/').reverse().join('/'));
+      return formatDistanceToNow((parsedDate), {
+        locale: ptBR,
+        addSuffix: true,
+      });
+    };
 
     onMounted(() => {
       window.addEventListener('resize', updateScreenWidt)
@@ -57,6 +76,7 @@ export default defineComponent({
 
     return {
       screenWidth,
+      formatPublishDate
     }
   }
 })
@@ -140,12 +160,12 @@ a:hover {
   }
 
   .boxContainer .title {
-  font-size: 1rem;
-}
+    font-size: 1rem;
+  }
 
-.boxContainer .content {
-  font-size: 0.8rem;
-}
+  .boxContainer .content {
+    font-size: 0.8rem;
+  }
 
 }
 
