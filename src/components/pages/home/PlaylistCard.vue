@@ -55,6 +55,8 @@ export default defineComponent({
 .imageContainer {
   position: relative;
   display: flex;
+  width: 400px;
+  height: 250px;
 }
 
 .imageContainer span {
@@ -75,6 +77,7 @@ export default defineComponent({
   height: 100%;
   border-radius: 1rem;
   object-fit: cover;
+  margin: 0 auto;
 }
 
 .boxContent {
@@ -96,5 +99,12 @@ a {
 
 a:hover {
   color: white;
+}
+
+@media (max-width: 690px) {
+  .imageContainer {
+    width: 100%;
+    height: 250px;
+  }
 }
 </style>

@@ -32,8 +32,9 @@ export default defineComponent({
     </header>
 
     <section :class="home.playlistContainer">
-      <div v-for="playlist in playlists" :key="playlist.id">
-        <PlaylistCard :id="playlist.id" :image-url="playlist.image_url" :title="playlist.name" :songs="playlist.songs" />
+      <div :class="home.cardContainer" v-for="playlist in playlists" :key="playlist.id">
+        <PlaylistCard :id="playlist.id" :image-url="playlist.image_url" :title="playlist.name"
+          :songs="playlist.songs" />
       </div>
     </section>
   </div>
@@ -50,5 +51,16 @@ export default defineComponent({
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: 1rem;
+}
+
+.cardContainer {
+  margin: 0 auto;
+}
+
+@media (max-width: 690px) {
+  .playlistContainer {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+  }
 }
 </style>
