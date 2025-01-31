@@ -22,7 +22,8 @@
           "channel_name": "STARSHIP",
           "publish_date": "05/04/2022"
         }
-      ]
+      ],
+      "create_date": "31/01/2017"
     },
     {
       "id": 2,
@@ -38,7 +39,8 @@
           "channel_name": "BLACKPINK",
           "publish_date": "26/06/2020"
         }
-      ]
+      ],
+      "create_date": "31/01/2017"
     },
     {
       "id": 3,
@@ -55,70 +57,32 @@
           "channel_name": "1theK (원더케이)",
           "publish_date": "22/08/2017"
         }
-      ]
+      ],
+      "create_date": "31/01/2017"
     },
     {
       "id": 4,
       "name": "(G)I-DLE",
       "image_url": "https://k4us.com.br/wp-content/uploads/2024/02/gidle-scaled.jpg",
       "songs": 0,
-      "videos": []
+      "videos": [],
+      "create_date": "31/01/2017"
     },
     {
       "id": 5,
       "name": "VIVIZ",
       "image_url": "https://i0.wp.com/revistakoreain.com.br/wp-content/uploads/2024/10/VIVIZ-Big-Planet-Made.jpg?fit=1200%2C675&ssl=1",
       "songs": 0,
-      "videos": []
+      "videos": [],
+      "create_date": "31/01/2017"
     },
     {
       "id": 6,
       "name": "BABYMONSTER",
       "image_url": "https://hitmagazine.com.br/wp-content/uploads/2024/11/BABYM-SITE-scaled-e1731868510230-925x540.jpeg",
       "songs": 0,
-      "videos": []
-    },
-    {
-      "id": 7,
-      "name": "ITZY",
-      "image_url": "https://i0.wp.com/popasiaticojpg.com/wp-content/uploads/2024/05/0b8d6-psx_20221130_173418.jpg?fit=810%2C400&ssl=1",
-      "songs": 0,
-      "videos": []
-    },
-    {
-      "id": 8,
-      "name": "ILLIT",
-      "image_url": "https://blog.delivered.co.kr/wp-content/uploads/2024/03/6-thumbnail.jpg",
-      "songs": 0,
-      "videos": []
-    },
-    {
-      "id": 9,
-      "name": "EVERGLOW",
-      "image_url": "https://i0.wp.com/popasiaticojpg.com/wp-content/uploads/2024/05/55a06-everglow-slay.png?fit=810%2C400&ssl=1",
-      "songs": 0,
-      "videos": []
-    },
-    {
-      "id": 10,
-      "name": "New Jeans",
-      "image_url": "https://imgix.bustle.com/uploads/image/2024/9/23/5555a38d/f24_newjeans_pr_logo_.jpg?w=1200&h=675&fit=crop&crop=faces&fm=jpg",
-      "songs": 0,
-      "videos": []
-    },
-    {
-      "id": 11,
-      "name": "LE SSERAFIM",
-      "image_url": "https://s2.glbimg.com/suVeCs263jHh7-DtzA6_96fx22Q=/620x413/e.glbimg.com/og/ed/f/original/2022/05/02/image_ZR8GNEI.png",
-      "songs": 0,
-      "videos": []
-    },
-    {
-      "id": 12,
-      "name": "TWICE",
-      "image_url": "https://imgix.bustle.com/uploads/image/2022/8/25/7e4b684c-1f25-43c0-bac7-e238d1702f2a-twice1.JPG",
-      "songs": 0,
-      "videos": []
+      "videos": [],
+      "create_date": "31/01/2017"
     }
   ]
 }
