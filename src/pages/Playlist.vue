@@ -14,15 +14,17 @@ export default defineComponent({
   },
   props: {},
   setup() {
+
     const route = useRoute()
     const id = route.params.id as string
     const isLoading = ref(true)
 
-    const { playlistVideos, fetchPlaylistVideos } = usePlaylist(Number(id))
+    const { playlistVideos, fetchPlaylistVideos, cinematicVideo, fetchCinematicVideo } = usePlaylist(Number(id))
 
     onMounted(async () => {
       try {
         await fetchPlaylistVideos()
+        await fetchCinematicVideo()
       } catch (error) {
         console.error('Erro ao carregador dados da playlist', error)
       } finally {
@@ -30,7 +32,7 @@ export default defineComponent({
       }
     })
 
-    return { playlistVideos, isLoading }
+    return { playlistVideos, isLoading, cinematicVideo }
   }
 })
 </script>
@@ -38,7 +40,8 @@ export default defineComponent({
 <template>
   <div :class="classes.playlistContainer">
     <aside :class="classes.aside">
-      <CinematicContainer image-url="" title="IVE" />
+      <CinematicContainer :key="cinematicVideo.id" :image-url="cinematicVideo.image_url" :title="cinematicVideo.name"
+        :songs="cinematicVideo.songs" :create-date="cinematicVideo.create_date" />
     </aside>
 
     <section v-if="isLoading" :class="classes.section">
@@ -46,10 +49,12 @@ export default defineComponent({
     </section>
 
     <section v-else :class="classes.section">
-      <div v-if="playlistVideos.length > 0" v-for="video in playlistVideos" :key="video.id">
-        <PlaylistCard :id="video.id" :imageUrl="video.image_url" :title="video.title" :channelName="video.channel_name" :publishDate="video.publish_date" />
+      <div v-for="(video, index) in playlistVideos" :key="video.id">
+        <PlaylistCard :index="index" :key="video.id" :image-url="video.image_url" :title="video.title"
+          :channel-name="video.channel_name" :publish-date="video.publish_date" />
       </div>
-      <p v-else :class="classes.textNoVideo">Nenhum vídeo foi inserido na playlist.</p>
+      <p v-if="playlistVideos.length === 0" :class="classes.textNoVideo">Nenhum vídeo foi inserido na playlist.
+      </p>
     </section>
   </div>
 </template>

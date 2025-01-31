@@ -2,18 +2,17 @@
   <div :class="classes.boxContainer">
     <div :class="classes.contentContainer">
       <div>
-        <img
-          src="https://i.ytimg.com/vi/pY7Kzkpbll0/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDY82qlOeWWWGSxFzrSZAnR4HxNKg"
-          alt="Playlist Thumbnail">
+        <img :src="imageUrl" alt="Playlist Thumbnail">
       </div>
 
       <div :class="classes.boxContent">
         <h2 :class="classes.title">{{ title }}</h2>
 
         <div :class="classes.content">
-          <span>Playlist * Não listado</span>
-          <span>* 189 vídeos</span>
-          <span>* 622 visualizações</span>
+          <span>Playlist • Não listado</span>
+          <span v-if="songs <= 1">• {{ songs }} vídeo</span>
+          <span v-else>• {{ songs }} vídeos</span>
+          <span>• Criado dia {{ createDate }}</span>
         </div>
       </div>
     </div>
@@ -30,12 +29,20 @@ export default defineComponent({
   props: {
     imageUrl: {
       type: String as PropType<string>,
-      required: false,
+      required: true,
     },
     title: {
       type: String as PropType<string>,
       required: true,
     },
+    songs: {
+      type: Number as PropType<number>,
+      required: true,
+    },
+    createDate: {
+      type: String as PropType<string>,
+      required: true,
+    }
   },
   setup() {
 

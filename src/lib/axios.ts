@@ -6,6 +6,7 @@ export interface PlaylistsType {
   image_url: string
   songs: number
   videos: object
+  create_date: string
 }
 
 export interface PlaylistIdType {
