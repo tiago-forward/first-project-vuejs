@@ -1,7 +1,7 @@
 <template>
   <div :class="classes.boxContainer">
     <div v-if="screenWidth > 690">
-      <span :class="classes.index">1</span>
+      <span :class="classes.index">{{ index + 1 }}</span>
     </div>
 
     <div :class="classes.contentContainer">
@@ -31,13 +31,13 @@ export default defineComponent({
 
   name: 'PlaylistCard',
   props: {
-    id: {
+    index: {
       type: Number as PropType<number>,
-      required: false,
+      required: true
     },
     imageUrl: {
       type: String as PropType<string>,
-      required: false,
+      required: true,
     },
     title: {
       type: String as PropType<string>,
